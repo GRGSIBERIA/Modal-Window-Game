@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <Siv3D.hpp>
 
-namespace mw
+namespace bom
 {
 	class Quaternion
 	{

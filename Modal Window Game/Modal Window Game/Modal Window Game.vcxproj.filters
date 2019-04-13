@@ -61,9 +61,15 @@
     <Filter Include="Resource Files\nlp\japanese\jumanpp">
       <UniqueIdentifier>{f6fe2a89-c647-48e2-bb2c-27b03b1aeced}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Modal">
+      <UniqueIdentifier>{f8aab22e-2703-41a8-b3f2-a2d0a631a18b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -231,5 +237,22 @@
     <Xml Include="App\example\test.xml">
       <Filter>Resource Files\example</Filter>
     </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tone.h">
+      <Filter>Header Files\Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="Chord.h">
+      <Filter>Header Files\Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Header Files\Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="Mode.h">
+      <Filter>Header Files\Modal</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

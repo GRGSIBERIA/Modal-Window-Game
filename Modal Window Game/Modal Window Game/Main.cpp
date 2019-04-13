@@ -9,6 +9,8 @@ void Main()
 
 	const Texture textureCat(Emoji(U"🐈"), TextureDesc::Mipped);
 
+	Window::SetTitle(U"Breath of the modal");
+
 	while (System::Update())
 	{
 		font(U"Hello, Siv3D!🐣").drawAt(Window::Center(), Palette::Black);
