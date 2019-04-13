@@ -266,9 +266,10 @@
   <ItemGroup>
     <ClInclude Include="Chord.h" />
     <ClInclude Include="Key.h" />
+    <ClInclude Include="ModalManager.h" />
     <ClInclude Include="Mode.h" />
     <ClInclude Include="Quaternion.h" />
-    <ClInclude Include="Tone.h" />
+    <ClInclude Include="Scale.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

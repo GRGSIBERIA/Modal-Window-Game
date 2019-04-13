@@ -242,9 +242,6 @@
     <ClInclude Include="Quaternion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Tone.h">
-      <Filter>Header Files\Modal</Filter>
-    </ClInclude>
     <ClInclude Include="Chord.h">
       <Filter>Header Files\Modal</Filter>
     </ClInclude>
@@ -252,6 +249,12 @@
       <Filter>Header Files\Modal</Filter>
     </ClInclude>
     <ClInclude Include="Mode.h">
+      <Filter>Header Files\Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="Scale.h">
+      <Filter>Header Files\Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="ModalManager.h">
       <Filter>Header Files\Modal</Filter>
     </ClInclude>
   </ItemGroup>
