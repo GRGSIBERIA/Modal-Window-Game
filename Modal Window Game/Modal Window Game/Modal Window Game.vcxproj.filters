@@ -263,5 +263,11 @@
     <ClInclude Include="ModalManager.h">
       <Filter>Header Files\Modal</Filter>
     </ClInclude>
+    <ClInclude Include="ToneArray.h">
+      <Filter>Header Files\Modal</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonData.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
