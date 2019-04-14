@@ -64,12 +64,18 @@
     <Filter Include="Header Files\Modal">
       <UniqueIdentifier>{f8aab22e-2703-41a8-b3f2-a2d0a631a18b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{b12ebf8b-f06f-42b6-a2a7-fac22a6173f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModalManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,8 +1,12 @@
 ﻿#pragma once
+#include "ToneArray.h"
 
 namespace bom
 {
-	class Key
+	/**
+	* 調性
+	*/
+	class Key : public ToneArray
 	{
 	public:
 	};

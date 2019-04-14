@@ -1,6 +1,8 @@
 ﻿
 # include <Siv3D.hpp> // OpenSiv3D v0.3.1
 
+#include "ModalManager.h"
+
 void Main()
 {
 	Graphics::SetBackground(ColorF(0.8, 0.9, 1.0));

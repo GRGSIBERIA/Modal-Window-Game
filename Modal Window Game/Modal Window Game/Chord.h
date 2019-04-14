@@ -1,8 +1,12 @@
 ﻿#pragma once
+#include "ToneArray.h"
 
 namespace bom
 {
-	class Chord
+	/**
+	* コード
+	*/
+	class Chord : public ToneArray
 	{
 	public:
 	};

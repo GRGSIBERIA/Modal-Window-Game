@@ -198,6 +198,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ModalManager.cpp" />
     <ClCompile Include="Quaternion.cpp" />
   </ItemGroup>
   <ItemGroup>
